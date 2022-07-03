@@ -6,7 +6,7 @@ local placeIDs = {
 
 
 if game.PlaceId == 2629642516 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheArcticDev/ArcticHub/main/BitcoinMiner.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lopax3000/Hayonic/main/Hub"))()
 	end)
 	       
 
