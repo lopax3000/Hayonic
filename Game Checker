@@ -1,6 +1,5 @@
 local placeIDs = {
 	2629642516, --Bitcoin Miner
-
 }
 
 
