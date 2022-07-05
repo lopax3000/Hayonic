@@ -6,6 +6,4 @@ local placeIDs = {
 
 if game.PlaceId == 2629642516 then
            loadstring(game:HttpGet("https://raw.githubusercontent.com/lopax3000/Hayonic/main/BitcoinMiner.lua"))()
-elseif game.PlaceId == 537413528 then
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/lopax3000/Hayonic/main/LumberTycoon.lua"))()
 end
