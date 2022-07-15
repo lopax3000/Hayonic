@@ -18,7 +18,7 @@ local themes
 
 local darkmode = {
 	MainBackground = Color3.fromRGB(42, 42, 42),
-	Glow = Color3.fromRGB(155, 33, 255),
+	Glow = Color3.fromRGB(0, 0, 0),
 	DarkContrast = Color3.fromRGB(20, 20, 20),
 	LightContrast = Color3.fromRGB(30,30,30), 
 	Accent = Color3.fromRGB(10, 10, 10),
