@@ -20,6 +20,7 @@ local themes = {
 	LightContrast = Color3.fromRGB(20, 20, 20), 
 	DarkContrast = Color3.fromRGB(14, 14, 14),  
 	TextColor = Color3.fromRGB(255, 255, 255)
+	Logo = "rbxassetid://7913262129"
 }
 
 do
@@ -2197,9 +2198,23 @@ do
 			frame.ScrollBarImageTransparency = 0
 		else
 			frame.CanvasSize = UDim2.new(0, 0, 0, 0)
-			frame.ScrollBarImageTransparency = 1
+	             frame.ScrollBarImageTransparency = 1
+		
+		utility:Create("ImageLabel", {
+						Name = "Logo",
+						BackgroundTransparency = 1,
+						Position = UDim2.new(0,0,0,0),
+						Size = UDim2.new(1, 0, 1, 0),
+						ZIndex = 2,
+						Image = themes.Logo,
+		
+		
+		
+		
 		end
 	end
 end
+
+
 --Dino was here 
 return library
