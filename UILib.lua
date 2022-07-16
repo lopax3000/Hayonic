@@ -20,7 +20,7 @@ local themes = {
 	LightContrast = Color3.fromRGB(20, 20, 20), 
 	DarkContrast = Color3.fromRGB(14, 14, 14),  
 	TextColor = Color3.fromRGB(255, 255, 255)
-	Logo = "rbxassetid://7913262129"
+	Logo = "rbxassetid://10244476962"
 }
 
 do
